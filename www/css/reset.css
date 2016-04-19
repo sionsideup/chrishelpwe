@@ -33,6 +33,7 @@ body {
 }
 ol, ul {
 	list-style: none;
+    width:365px;
 }
 blockquote, q {
 	quotes: none;

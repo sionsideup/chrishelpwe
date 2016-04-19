@@ -42,7 +42,6 @@ body {
     font-size:12px;
     margin:-24px;
     padding:0px;
-    text-transform:uppercase;
     width:363px;
     height:auto;
 }
@@ -315,7 +314,7 @@ header h1 {
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.6;
-  color: #8493bf;
+  color: black ;
   margin-bottom: 2em;
 }
 @media only screen and (min-width: 768px) {
@@ -379,8 +378,6 @@ header h1 {
 }
 img{
     position:absolute;
-    z-index: -100;
-    
 }
 
 
