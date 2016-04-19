@@ -382,3 +382,225 @@ img{
     z-index: -100;
     
 }
+
+
+
+/*TIME*/
+#time{
+    font-size:500%;
+}
+
+
+
+.onoffswitch {
+    margin: 0 0 0 254px;
+    width: 25%;
+    position: relative; width: 85px; 
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch2 {
+    margin: 0 0 0 254px;
+    width: 25%;
+    position: relative; width: 85px; 
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+
+.onoffswitch3 {
+    margin: 0 0 0 254px;
+    width: 25%;
+    position: relative; width: 85px; 
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch4 {
+    margin: 0 0 0 254px;
+    width: 25%;
+    position: relative; width: 85px; 
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch5 {
+    margin: 0 0 0 254px;
+    width: 25%;
+    position: relative; width: 85px; 
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch6 {
+    margin: 0 0 0 254px;
+    width: 25%;
+    position: relative; width: 85px; 
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch7 {
+    margin: 0 0 0 254px;
+    width: 25%;
+    position: relative; width: 85px; 
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch8 {
+    margin: 0 0 0 254px;
+    width: 25%;
+    position: relative; width: 85px; 
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch9 {
+    margin: 0 0 0 254px;
+    width: 25%;
+    position: relative; width: 85px; 
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch10 {
+    margin: 0 0 0 254px;
+    width: 25%;
+    position: relative; width: 85px; 
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch11 {
+    margin: 0 0 0 254px;
+    width: 25%;
+    position: relative; width: 85px; 
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch12 {
+    margin: 0 0 0 254px;
+    width: 25%;
+    position: relative; width: 85px; 
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+
+
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 15px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 24px; padding: 0; line-height: 27px;
+    font-size: 12px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "Alarm";
+    padding-left: 10px;
+    background-color: #34D104; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "Alarm";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 17px; margin: 5px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 55px;
+    border: 2px solid #999999; border-radius: 15px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
+.sch1{
+    width: 100%;
+    margin: 20px 0 0 10px;
+    display: inline-block;
+}
+
+
+
+
+div.toggler {
+    text-align: left;
+    color: white;
+    padding: 8px;
+    float: left;
+    width: 80%;
+    background:#ffa3a3; 
+    cursor:pointer; 
+  
+
+}
+
+
+div.toggler div {
+    text-align: left;
+    float: left;
+   padding: 10px 0 0 4px;
+    display:none;
+}
+
+.sch2{
+    width: 100%;
+    margin: 10px 0 0 10px;
+    display: inline-block;
+}
+
+.sch3{
+    width: 100%;
+    margin: 10px 0 0 10px;
+    display: inline-block;
+}
+
+.sch4{
+    width: 100%;
+    margin: 10px 0 0 10px;
+    display: inline-block;
+}
+
+.sch5{
+    width: 100%;
+    margin: 10px 0 0 10px;
+    display: inline-block;
+}
+
+.sch6{
+    width: 100%;
+    margin: 10px 0 0 10px;
+    display: inline-block;
+}
+
+.sch7{
+    width: 100%;
+    margin: 10px 0 0 10px;
+    display: inline-block;
+}
+
+.sch8{
+    width: 100%;
+    margin: 10px 0 0 10px;
+    display: inline-block;
+}
+
+.sch9{
+    width: 100%;
+    margin: 10px 0 0 10px;
+    display: inline-block;
+}
+
+.sch10{
+    width: 100%;
+    margin: 10px 0 0 10px;
+    display: inline-block;
+}
+
+.sch11{
+    width: 100%;
+    margin: 10px 0 0 10px;
+    display: inline-block;
+}
+
+.sch12{
+    width: 100%;
+    margin: 10px 0 0 10px;
+    display: inline-block;
+}
+
