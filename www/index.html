@@ -19,9 +19,9 @@
 <div class="cd-tabs">
 	<nav>
 		<ul class="cd-tabs-navigation">
-			<li><a data-content="inbox" class="selected" href="#0">HOME</a></li>
-			<li><a data-content="new" href="#0">SCHEDULE</a></li>
-			<li><a data-content="gallery" href="#0">ALARMS</a></li>
+			<li><a data-content="inbox" class="home" href="#0">HOME</a></li>
+			<li><a data-content="new" class="schedule" href="#0">SCHEDULE</a></li>
+			<li><a data-content="gallery" class="alarms" href="#0">ALARMS</a></li>
 		</ul> <!-- cd-tabs-navigation -->
 	</nav>
 
@@ -62,7 +62,7 @@
             
                 <div class="sch1">
                     <div class="toggler" onclick="toggleText('toToggle');"><img src="img/arrowd.png" width="10px" height="10px" >         12:00PM - 1:00PM <span style="padding-left:10px">DJ</span>
-                        <div id="toToggle">During this time a Dj will be playing several recorded electronic dance music. They will mix and blend the music on-stage. </div>
+                        <div id="toToggle">During this time a DJ will be playing several recorded electronic dance music. They will mix and blend the music on-stage. </div>
                     </div>
                   
                 <div class="alarmbutton">
@@ -88,7 +88,7 @@
                     </div>
                   
                 <div class="alarmbutton">
-                        <img id="myImage" onclick="changeImage()" src="alarmclock.png"                          width="12" height="12">
+                        <img id="myImage" onclick="changeImage()" src="alarmclock.png"                          width="15px" height="15px">
                 </div> 
             </div>    
             
@@ -99,7 +99,7 @@
                     </div>
                   
                 <div class="alarmbutton">
-                        <img id="myImage" onclick="changeImage()" src="alarmclock.png"                          width="12" height="12">
+                        <img id="myImage" onclick="changeImage()" src="alarmclock.png"                          width="15px" height="15px">
                 </div>   
             </div>
             
@@ -109,7 +109,7 @@
                     </div>
                   
                 <div class="alarmbutton">
-                        <img id="myImage" onclick="changeImage()" src="alarmclock.png"                          width="12px" height="12px">
+                        <img id="myImage" onclick="changeImage()" src="alarmclock.png"                          width="15px" height="15px">
                 </div>   
             </div>
             
@@ -119,7 +119,7 @@
                     </div>
                   
                   <div class="alarmbutton">
-                        <img id="myImage" onclick="changeImage()" src="alarmclock.png"                          width="12px" height="12px">
+                        <img id="myImage" onclick="changeImage()" src="alarmclock.png"                          width="15px" height="15px">
                 </div>    
             </div>
             
@@ -129,7 +129,7 @@
                     </div>
                   
                 <div class="alarmbutton">
-                    <img id="myImage" onclick="changeImage()" src="alarmclock.png" width="12px" height="12px">
+                    <img id="myImage" onclick="changeImage()" src="alarmclock.png" width="15px" height="15px">
                 </div>    
             </div>
             
@@ -139,7 +139,7 @@
                     </div>
                   
                 <div class="alarmbutton">
-                    <img id="myImage" onclick="changeImage()" src="alarmclock.png" width="12px" height="12px">
+                    <img id="myImage" onclick="changeImage()" src="alarmclock.png" width="15px" height="15px">
                 </div>      
             </div>
             
@@ -149,14 +149,14 @@
                     </div>
                   
                 <div class="alarmbutton">
-                    <img id="myImage" onclick="changeImage()" src="alarmclock.png" width="12px" height="12px">    
+                    <img id="myImage" onclick="changeImage()" src="alarmclock.png" width="15px" height="15px"> 
             </div>
             </div>
             
             <div class="sch10">
                     <div class="toggler" onclick="toggleText('toToggle10');"><img src="img/arrowd.png" width="10px" height="10px" > 10:00PM - 11:00PM <span style="padding-left:20px">Activities</span>
                         <div class="alarmbutton">
-                    <img id="myImage" onclick="changeImage()" src="alarmclock.png" width="12px" height="12px">   
+                    <img id="myImage" onclick="changeImage()" src="alarmclock.png" width="15px" height="15px">  
             </div>
                         
                         <div id="toToggle10">Activities available:
@@ -183,7 +183,7 @@
                     </div>
                   
                 <div class="alarmbutton">
-                    <img id="myImage" onclick="changeImage()" src="alarmclock.png" width="12px" height="12px"> 
+                    <img id="myImage" onclick="changeImage()" src="alarmclock.png" width="15px" height="15px">
             </div>
             </div>
             
@@ -193,7 +193,7 @@
                     </div>
                   
                 <div class="alarmbutton">
-                    <img id="myImage" onclick="changeImage()" src="alarmclock.png" width="12px" height="12px">   
+                    <img id="myImage" onclick="changeImage()" src="alarmclock.png" width="15px" height="15px">
             </div>
             </div>
             
@@ -201,9 +201,14 @@
         </a>
     </ul>
 
-
-            <li data-content="gallery">
-                <p></p>
+<!--ALARM PAGE-->
+            <li data-content="gallery">    
+                <ul class="alarmList">
+                    <a data-content="new" class="alarms">
+                        <p>alarms</p>
+            
+            
+            
             </li>
 
         </ul> <!-- cd-tabs-content -->
