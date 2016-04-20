@@ -203,7 +203,8 @@
 
 
             <li data-content="gallery">
-                <p></p>
+				<div id="alerts" class="alerts">
+				</div>
             </li>
 
         </ul> <!-- cd-tabs-content -->
@@ -347,16 +348,33 @@ ent.getElementById("pic13").innerHTML = pic13;
             (theText.style.display=='block') ? theText.style.display='none' : theText.style.display='block' ;
         }
 
+// wow sion i cant believe you've done this
 
+var alarm1 = {
+	time: '10:00 - 10:50',
+	name: 'Bacon Eating Contest',
+	desc: 'Eat as much bacon as you can'
+}
+var allAlarms = {alarm1};
 //ALARMBUTTON
             function changeImage(el) {
 				var image = document.getElementById(el.id);
 				if (image.src.match("alarmclock2")) {
+					document.getElementById(el.id + 'Active').remove();
 					image.src = "alarmclock.png";
 				} else {
 					image.src = "alarmclock2.jpg";
-}
-        }
+					var alerts = document.getElementById('alerts');
+					var newAlarm = document.createElement('div');
+					newAlarm.id = el.id + 'Active';
+					var alarmContent = document.createTextNode(el.id);
+					newAlarm.appendChild(alarmContent);
+					alerts.appendChild(newAlarm);
+				}
+			}
+			function removeAlarm(el) {
+				document.getElementById(el.id).remove();
+			}
 
 
     </script>
